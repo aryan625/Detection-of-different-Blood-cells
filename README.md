@@ -1,6 +1,6 @@
 # Training-YOLOX-on-a-Custom-Dataset
 
-In this project, I aimed to train YOLOX on custom dataset. I chose this model since it is an anchor-free version of YOLO, with a simpler design but better performance. Here I used YOLOX-s model .To implement the model for training, I used Pytorch Framework. The detector was trained relatively quickly for detecting multiple classes of objects (different blood cells) with mean AP of 0.9224.To prepare and preprocess the dataset; I used a public blood cell detection dataset which was available on Roboflow. At last the model was inferred on a test image to detect RBC, WBC and Platelets.
+In this project, I aimed to train YOLOX on custom dataset. I chose this model since it is an anchor-free version of YOLO, with a simpler design but better performance. Here I used YOLOX-s model .To implement the model for training, I used Pytorch Framework. The detector was trained relatively quickly for detecting multiple classes of objects (different blood cells) achieving mean AP of 0.9224.To prepare and preprocess the dataset; I used a public blood cell detection dataset which was available on Roboflow. At last the model was inferred on a test image to detect RBC, WBC and Platelets.
 
 To train the detector I took the following steps:
   -	Installed YOLOX dependencies
